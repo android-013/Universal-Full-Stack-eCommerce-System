@@ -1,0 +1,30 @@
+{
+  "name": "universal-commerce-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A configurable universal commerce platform engine for many store verticals.",
+  "packageManager": "pnpm@12.4.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --parallel --filter @ucp/backend --filter @ucp/frontend dev",
+    "dev:backend": "pnpm --filter @ucp/backend dev",
+    "dev:frontend": "pnpm --filter @ucp/frontend dev",
+    "build": "pnpm --recursive build",
+    "typecheck": "pnpm --recursive typecheck",
+    "test": "pnpm --recursive test",
+    "lint": "pnpm --recursive lint",
+    "format": "prettier --write .",
+    "db:generate": "pnpm --filter @ucp/backend db:generate",
+    "db:migrate": "pnpm --filter @ucp/backend db:migrate",
+    "db:init-sqlite": "pnpm --filter @ucp/backend db:init-sqlite",
+    "db:setup-sqlite": "pnpm --filter @ucp/backend db:setup-sqlite",
+    "db:seed": "pnpm --filter @ucp/backend db:seed"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6",
+    "typescript": "7.0.2"
+  }
+}

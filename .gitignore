@@ -1,0 +1,16 @@
+node_modules/
+.next/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+apps/backend/prisma/dev.db
+apps/backend/prisma/dev.db-journal
+dev.db
+*.db-journal
+storage/products/**/*
+!storage/products/.gitkeep
+work/
