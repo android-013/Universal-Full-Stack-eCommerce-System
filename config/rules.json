@@ -1,0 +1,15 @@
+{
+  "inventory": {
+    "lowStockThresholdDefault": 5,
+    "allowBackorders": false
+  },
+  "orders": {
+    "allowedCancellationStatuses": ["PENDING", "CONFIRMED"],
+    "returnWindowDays": 14
+  },
+  "seo": {
+    "requireAdminReview": true,
+    "autoGenerateOnPriceChange": true,
+    "autoGenerateOnDescriptionChange": true
+  }
+}

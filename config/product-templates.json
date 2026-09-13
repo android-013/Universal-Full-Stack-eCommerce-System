@@ -1,0 +1,18 @@
+{
+  "fashion": {
+    "attributes": ["color", "size", "gender", "material", "sleeve"],
+    "variantAxes": ["color", "size"]
+  },
+  "grocery": {
+    "attributes": ["volume", "packageType", "brand", "dietary"],
+    "variantAxes": ["volume"]
+  },
+  "meat": {
+    "attributes": ["cut", "weight", "grade", "origin"],
+    "variantAxes": ["weight", "grade"]
+  },
+  "parts": {
+    "attributes": ["manufacturer", "compatibility", "material", "finish"],
+    "variantAxes": ["compatibility"]
+  }
+}

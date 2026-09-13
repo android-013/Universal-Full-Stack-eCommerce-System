@@ -1,0 +1,12 @@
+{
+  "brand": {
+    "name": "Universal Commerce",
+    "primary": "#2563eb",
+    "accent": "#10b981",
+    "surface": "#f8fafc"
+  },
+  "layout": {
+    "radius": "8px",
+    "maxWidth": "1180px"
+  }
+}

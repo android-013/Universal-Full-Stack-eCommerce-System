@@ -1,0 +1,14 @@
+{
+  "storeName": "Universal Commerce",
+  "defaultCurrency": "USD",
+  "supportedCurrencies": ["USD", "BDT", "EUR", "GBP"],
+  "defaultLocale": "en-US",
+  "verticals": ["fashion", "grocery", "electronics", "food", "parts", "custom-products"],
+  "features": {
+    "guestCart": true,
+    "wishlist": true,
+    "reviews": true,
+    "multiWarehouseInventory": true,
+    "adminReviewForSeo": true
+  }
+}

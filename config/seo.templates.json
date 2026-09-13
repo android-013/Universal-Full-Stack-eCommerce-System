@@ -1,0 +1,6 @@
+{
+  "productTitle": "{productName} | {storeName}",
+  "productDescription": "Shop {productName} with configurable variants, fast checkout, and reliable fulfillment.",
+  "categoryTitle": "{categoryName} Products | {storeName}",
+  "canonicalBase": "{origin}"
+}
